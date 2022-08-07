@@ -12,47 +12,46 @@
 <form action="/astro.php" method="post">
     <label for="clientName">Ваше имя</label>
     <input type="text" id="clientName" name="clientName"/>
-    <button type="submit">Отправить</button>
     <br/>
     <ol>
-<!--        <p>-->
-        <li>Как называлось простейшее приспособление для астрономических наблюдений в Древней Греции?</li>
-<!--        </p>-->
-        <label><input type="radio" value="гномон" name=“myRadio”/>гномон</label>
-        <label><input type="radio" value="гмоном" name=“myRadio”/>гмоном</label>
-        <label><input type="radio" value="телескоп" name=“myRadio”/> телескоп</label>
-        <br>
-<!--        <p>-->
-        <li>Кто из ученых собрал первый телескоп?</li>
-<!--        </p>-->
-        <label><input type="checkbox"/>Иоганн Кеплер</label>
-        <br/>
-        <label><input type="checkbox"/>Галилео Галилей</label>
-        <br/>
-        <label><input type="checkbox"/>Михаил Васильевич Ломоносов</label>
 
-<!--        <p>-->
+        <li>Как называлось простейшее приспособление для астрономических наблюдений в Древней Греции?</li>
+
+        <label><input type="radio" value="gnomon" name="myRadio"/>гномон</label>
+        <label><input type="radio" value="gmonom" name="myRadio"/>гмоном</label>
+        <label><input type="radio" value="telescope" name="myRadio"/> телескоп</label>
+        <br>
+
+        <li>Кто из ученых собрал первый телескоп?</li>
+
+        <label><input type="checkbox" value="JohannesKepler" name="checkbox1"/>Иоганн Кеплер</label>
+        <br/>
+        <label><input type="checkbox" value="GalileoGalilei" name="checkbox2"/>Галилео Галилей</label>
+        <br/>
+        <label><input type="checkbox" value="MikhailLomonosov" name="checkbox3"/>Михаил Васильевич Ломоносов</label>
+
+
         <li>Выберите планеты земной группы:</li>
-<!--        </p>-->
+
         <label for="planets">Выберите ответ:</label>
-        <select id="planets" name="планеты" size="6" multiple>
-            <option value="юпитер">Юпитер</option>
-            <option value="меркурий">Меркурий</option>
-            <option value="сатурн">Сатурн</option>
-            <option value="марс">Марс</option>
-            <option value="венера">Венера</option>
-            <option value="земля">Земля</option>
+        <select id="planets" name="planets" size="6" multiple>
+            <option value="jupiter">Юпитер</option>
+            <option value="mercury">Меркурий</option>
+            <option value="saturn">Сатурн</option>
+            <option value="mars">Марс</option>
+            <option value="venus">Венера</option>
+            <option value="earth">Земля</option>
         </select>
-<!--        <p>-->
+
         <li>Какие звезды самые холодные?</li>
-<!--        </p>-->
+
         <label for="stars">Выберите ответ:</label>
-        <select id="stars" name="звезды">
+        <select id="stars" name="stars">
             <!--        <select name="звезды" size="1">-->
-            <option value="голубые">Голубые</option>
-            <option value="желтые">Желтые</option>
-            <option value="оранжевые">Оранжевые</option>
-            <option value="красные">Красные</option>
+            <option value="blue">Голубые</option>
+            <option value="yellow">Желтые</option>
+            <option value="orange">Оранжевые</option>
+            <option value="red">Красные</option>
         </select>
     </ol>
     <p id="finish">Оставьте отзыв о нашем тесте:)</p>
@@ -60,5 +59,8 @@
     <br>
     <button type="submit" onclick="alert('Спасибо за интерес к нашему сайту)')">Отправить ответы</button>
 </form>
+<br />
+<p>На нашем сайте можно узнать много нового:</p>
+    <a href="http://localhost:63342/html1/src/table.html?_ijt=honaub3d1jst2p7c9rrb4q3dud&_ij_reload=RELOAD_ON_SAVE">Ссылка на наш сайт</a>
 </body>
 </html>
