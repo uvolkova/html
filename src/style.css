@@ -1,0 +1,18 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+    font-family: verdana;
+    font-size: 200%;
+}
+#begining {
+  color: green;
+  font-family: courier;
+  courier;
+}
+#finish {
+    color: blue;
+    font-family: courier;
+    courier;
+}

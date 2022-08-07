@@ -1,0 +1,36 @@
+body {
+  background-color: blue;
+}
+h1 {
+  color: yellow;
+    font-family: bookstyle;
+    font-size: 200%;
+    }
+h3 {
+     color: violet;
+       font-family: bookstyle;
+       font-size: 120%;
+       }
+.paragraph {
+    color: yellow;
+        font-family: bookstyle;
+        font-size: 120%;
+        }
+div {
+         color: red;
+           font-family: Courier New;
+           font-size: 120%;
+           }
+ol  {
+             color: red;
+               font-family: Courier New;
+               font-size: 100%;
+               }
+table  {
+                    color: violet;
+                      font-family: bookstyle;
+                      font-size: 100%;
+                      }
+a{
+color: black;
+}
